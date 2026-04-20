@@ -1,0 +1,8 @@
+matplotlib
+numpy
+torch
+tqdm
+nltk
+w3lib
+scikit-learn
+sentence-transformers
