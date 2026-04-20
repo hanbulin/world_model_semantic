@@ -1,0 +1,7 @@
+{
+  "snr_db_points": [0, 3, 6, 9, 12, 15, 18],
+  "rayleigh_sentence_similarity_points": [0.58, 0.72, 0.82, 0.88, 0.91, 0.92, 0.92],
+  "awgn_sentence_similarity_points": [0.68, 0.86, 0.91, 0.94, 0.95, 0.95, 0.95],
+  "fit_target": "rayleigh_mid_precision",
+  "notes": "Points are manually digitized from Fig. 7 of the DeepSC paper and used as a practical fitting reference."
+}

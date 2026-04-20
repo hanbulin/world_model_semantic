@@ -1,0 +1,20 @@
+{
+  "runs": [
+    {
+      "name": "semantic_debug_seed0",
+      "seed": 0,
+      "steps": 2000,
+      "train_ratio": 8,
+      "debug": true,
+      "config": "configs/semantic_env.json"
+    },
+    {
+      "name": "semantic_debug_seed1",
+      "seed": 1,
+      "steps": 2000,
+      "train_ratio": 8,
+      "debug": true,
+      "config": "configs/semantic_env.json"
+    }
+  ]
+}

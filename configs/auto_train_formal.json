@@ -1,0 +1,49 @@
+{
+  "runs": [
+    {
+      "name": "semantic_formal_seed0",
+      "seed": 0,
+      "steps": 30000,
+      "train_ratio": 16,
+      "platform": "cpu",
+      "config": "configs/semantic_env_formal.json",
+      "envs": 1,
+      "eval_envs": 1,
+      "batch_size": 8,
+      "batch_length": 32,
+      "log_every": 120,
+      "report_every": 300,
+      "save_every": 900
+    },
+    {
+      "name": "semantic_formal_seed1",
+      "seed": 1,
+      "steps": 30000,
+      "train_ratio": 16,
+      "platform": "cpu",
+      "config": "configs/semantic_env_formal.json",
+      "envs": 1,
+      "eval_envs": 1,
+      "batch_size": 8,
+      "batch_length": 32,
+      "log_every": 120,
+      "report_every": 300,
+      "save_every": 900
+    },
+    {
+      "name": "semantic_formal_seed2",
+      "seed": 2,
+      "steps": 30000,
+      "train_ratio": 16,
+      "platform": "cpu",
+      "config": "configs/semantic_env_formal.json",
+      "envs": 1,
+      "eval_envs": 1,
+      "batch_size": 8,
+      "batch_length": 32,
+      "log_every": 120,
+      "report_every": 300,
+      "save_every": 900
+    }
+  ]
+}

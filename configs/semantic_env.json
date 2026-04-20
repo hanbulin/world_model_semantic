@@ -1,0 +1,59 @@
+{
+  "episode_length": 64,
+  "num_edges": 3,
+  "device_energy_budget": 200.0,
+  "data_size_range": [2.0, 12.0],
+  "workload_range": [8.0, 40.0],
+  "sentence_len_range": [8, 28],
+  "snr_d2e_db_range": [-2.0, 18.0],
+  "snr_e2e_db_range": [4.0, 24.0],
+  "bandwidth_d2e": 6.0,
+  "power_levels": [0.2, 0.5, 0.8, 1.0],
+  "local_cpu_levels": [2.0, 4.0, 6.0, 8.0],
+  "edge_cpu_levels": [6.0, 10.0, 14.0, 18.0],
+  "e2e_rate_levels": [8.0, 12.0, 16.0, 20.0],
+  "edge_forward_power": 0.6,
+  "alpha_local": 0.003,
+  "alpha_encode": 0.002,
+  "alpha_decode": 0.0015,
+  "alpha_edge": 0.001,
+  "semantic_requirement": 0.72,
+  "delay_normalizer": 20.0,
+  "energy_normalizer": 10.0,
+  "edge_load_decay": 0.85,
+  "reward_weights": {
+    "delay": 1.0,
+    "energy": 0.4,
+    "semantic": 1.2,
+    "penalty": 4.0
+  },
+  "semantic_levels": [
+    {
+      "name": "low",
+      "eta": 8.0,
+      "A": 0.18,
+      "B": 0.72,
+      "C": 5.0,
+      "D": 0.57,
+      "source": "initial_inference_from_deepsc_sentence_similarity_trend"
+    },
+    {
+      "name": "mid",
+      "eta": 16.0,
+      "A": 0.24,
+      "B": 0.84,
+      "C": 2.5,
+      "D": 0.60,
+      "source": "initial_inference_from_deepsc_sentence_similarity_trend"
+    },
+    {
+      "name": "high",
+      "eta": 32.0,
+      "A": 0.30,
+      "B": 0.95,
+      "C": 0.5,
+      "D": 0.63,
+      "source": "initial_inference_from_deepsc_sentence_similarity_trend"
+    }
+  ]
+}
